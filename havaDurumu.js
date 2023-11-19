@@ -48,7 +48,7 @@ const data = (result) => {
         description.innerText = turkishDescription;
 
         let minMax = document.querySelector(".minMax");
-        minMax.innerText = `Münervver Enver${Math.round(result.main.temp_min - 273.15)}°C / ${Math.round(result.main.temp_max - 273.15)}°C`;
+        minMax.innerText = `${Math.round(result.main.temp_min - 273.15)}°C / ${Math.round(result.main.temp_max - 273.15)}°C`;
     }
     else {
         let city=document.querySelector(".city");
